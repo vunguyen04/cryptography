@@ -1,4 +1,6 @@
 # crytography.py
+#this is a class for cryptography
+#Created by Vu Nguyen
 import string
 KEY = 4
 
