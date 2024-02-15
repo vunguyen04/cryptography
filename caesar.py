@@ -1,11 +1,11 @@
-# crytography.py
-#this is a class for cryptography
+# caesar.py
+#basic cryptography project
 #Created by Vu Nguyen
 import string
 KEY = 4
 
 
-class Cryptography():
+class Caesar():
     def __init__(self, input):
         self.input = input
         self.characters = string.whitespace + string.punctuation + string.digits + string.ascii_letters
